@@ -3,6 +3,8 @@ spring:
     mongodb:
       host: localhost
       port: 1234
+    rest:
+      base-path: /datarest
 management:
   security:
     enabled: false
